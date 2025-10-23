@@ -18,20 +18,14 @@ layout:
 
 # Quickstart
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
+### Installation <a href="#installation" id="installation"></a>
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+1. Download UncomplicatedCustomEscapeZones.dll from [GitHub](https://www.github.com/UncomplicatedCustomServer/UncomplicatedCustomEscapeZones/releases/latest) and put it to `SCP Secret Laboratory/LabApi/plugins/global/` directory.
+2. Restart the server and check if you installed it correctly.
 
-{% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](broken-reference) section to learn more.
-{% endhint %}
+### Configuration <a href="#configuration" id="configuration"></a>
 
-### Import
-
-GitBook supports importing content from many popular writing tools and formats. If your content already exists, you can upload a file or group of files to be imported.
-
-<div data-full-width="false"><figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-import.png" alt=""><figcaption></figcaption></figure></div>
-
-### Sync a repository
-
-GitBook also allows you to set up a bi-directional sync with an existing repository on GitHub or GitLab. Setting up Git Sync allows you and your team to write content in GitBook or in code, and never have to worry about your content becoming out of sync.
+* Go to `SCP Secret Laboratory/LabApi/configs/UncomplicatedCustomEscapeZones/`.
+  * If a file is in the PORT folder (example 7777) it will load if the server is running on that port. If it's not in a PORT folder it will load globally.
+  * Here you can find the .yml files where you are able to configure the default one or make new ones by creating new files.
+  * When you first start the server with UCEZ it will generate 2 default .yml, it's not required but to avoid warnings you should delete one of them.
